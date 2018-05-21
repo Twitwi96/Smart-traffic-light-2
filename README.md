@@ -4,6 +4,7 @@ FLAMENT Dorian (Dorian.Flament@student.umons.ac.be)
 NGUYEN Thuy hai (Thuy-Hai.Nguyen@student.umons.ac.be)
 
 University of Mons, Belgium (https://web.umons.ac.be/fr/)
+Faculty of Engineering
 
 Hardware/Software Platform course
 
@@ -18,7 +19,7 @@ In folders above, you can find for each part (Tutorial Version, Improved Version
 
 and also : 
 - README.txt file for general informations 
-- PowerPoint presentation for an explanation of full project
+- PowerPoint presentation for a complete explanation of the project
 
 
 # General Overview
