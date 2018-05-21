@@ -4,10 +4,16 @@ To do so, traffic lights let past cars on the most blocked road, by detecting th
 Two further improvements are also performed : 
 
 1) The automatic detection of road limits in order to adapt the system to all sizes of road of cross crossroads.
-2) The possibility of giving the priority to emergency vehicles, like ambulances or fire engines, or globally to large vehicles (because it is long to start, involving traffics jams and pollution).
+2) The possibility of giving the priority to emergency vehicles, like ambulances or fire engines, or globally to large vehicles (because it is long to fire up, involving traffics jams and pollution).
 
 
 
 # Click below to access to our Project Video : 
+Tutorial Version :
+[![video link youtube](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-04-29-a-16-51-56.jpg)]( https://www.youtube.com/watch?v=jQJlSoAfE3g&t=2s)
 
-[![video link youtube](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-04-29-a-16-51-56.jpg)](https://www.youtube.com/watch?v=Fwua8g3W6qo&feature=youtu.be)
+Improved Version 1 :
+[![video link youtube](http://liverpoolfc-fr.wifeo.com/images/y/you/youtube-improved-version-1.jpg)]( https://www.youtube.com/watch?v=-3C68o-8WWs&feature=youtu.be)
+
+Improved Version 2 : 
+[![video link youtube](https://www.youtube.com/watch?v=j2LM9ZPuFI4&feature=youtu.be)
