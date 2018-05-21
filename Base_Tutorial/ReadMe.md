@@ -1,4 +1,4 @@
-traffic.py is the original code that was on the tutorial website
+traffic.py is the original code that was on the tutorial website (http://www.instructables.com/id/Smart-Traffic-Light/)
 
 traffic_modif1.py is the previous code that we modified in order to:
 - Make the code work for any USB webcam instead of PiCamera
@@ -6,3 +6,5 @@ traffic_modif1.py is the previous code that we modified in order to:
 - Change frame treatment to make detection more accurate
 
 Powerpoint is for further explanations
+
+The Tutorial Version allows the smart management of the traffic lights. In other words, light turns green for the most blocked road, by detecting the number of cars on each road with an USB Webcam placed above the crossroads. A lot of cars stopped causes pollution and traffic jams. Our projet helps to decrease these two issues.  
