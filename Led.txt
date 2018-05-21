@@ -1,0 +1,13 @@
+Led
+
+Feu horizontal = haut
+Feu vertical = bas
+
+Ground fil brun
+Ground fil bleu
+21 (Orange horizontal) fil vert
+25 (Vert horizontal) fil blanc orange
+16 (Orange vertical) fil blanc bleu 
+23 (Vert vertical) fil blanc vert 
+
+
