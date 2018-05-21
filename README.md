@@ -16,4 +16,4 @@ Improved Version 1 :
 [![video link youtube](http://liverpoolfc-fr.wifeo.com/images/y/you/youtube-improved-version-1.jpg)]( https://www.youtube.com/watch?v=-3C68o-8WWs&feature=youtu.be)
 
 Improved Version 2 : 
-[![video link youtube](https://www.youtube.com/watch?v=j2LM9ZPuFI4&feature=youtu.be)
+[![video link youtube](http://liverpoolfc-fr.wifeo.com/images/y/you/youtube-improved-version-2.jpg)]( https://www.youtube.com/watch?v=j2LM9ZPuFI4&feature=youtu.be)
