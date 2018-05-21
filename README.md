@@ -11,6 +11,15 @@ Under the direction of Pr. Carlos VALDERRAMA (CarlosAlberto.VALDERRAMASAKUYAMA@u
 
 2017-2018
 
+In folders above, you can find for each part (Tutorial Version, Improved Version 1 and Improved Version 2) :
+
+- Pictures of our project
+- Python codes used
+
+and also : 
+- README.txt file for general informations 
+- PowerPoint presentation for an explanation of full project
+
 
 # General Overview
 The main goal of our project is to create traffic lights which allow to smartly manage the traffic on a road. 
