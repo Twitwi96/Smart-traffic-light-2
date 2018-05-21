@@ -1,5 +1,4 @@
-Improvement 2 : give the priority to large vehicles
-In order to manage emergency, decrease pollution and traffic jams
+Improvement 2 : give the priority to large vehicles in order to manage emergency, decrease pollution and traffic jams
 
 Code modified in order to:
 
