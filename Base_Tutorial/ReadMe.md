@@ -1,8 +1,9 @@
-#Functionality of this version
+# Functionality of this version
+
 
 This version allows the smart management of the traffic lights. In other words, light turns green for the most blocked road, by detecting the number of cars on each road with an USB Webcam placed above the crossroads. A lot of cars stopped causes pollution and traffic jams. Our projet helps to decrease these two issues.  
 
-#Further informations
+# Further informations
 
 traffic.py is the original code that was on the tutorial website (http://www.instructables.com/id/Smart-Traffic-Light/)
 
