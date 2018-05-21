@@ -1,9 +1,12 @@
 # Smart Traffic Lights 2
 FLAMENT Dorian (Dorian.Flament@student.umons.ac.be)
+
 NGUYEN Thuy hai (Thuy-Hai.Nguyen@student.umons.ac.be)
 
 University of Mons, Belgium (https://web.umons.ac.be/fr/)
+
 Hardware/Software Platform course
+
 Under the direction of Pr. Carlos VALDERRAMA (CarlosAlberto.VALDERRAMASAKUYAMA@umons.ac.be)
 
 2017-2018
