@@ -2,6 +2,6 @@ Improvement 2 : give the priority to large vehicles in order to manage emergency
 
 Code modified in order to:
 
-- Use of rectangles instead of circles to frame vehicles in order to calculate an accurate area
-- Light turns green if area is bigger than a threshold  
+- Use rectangles instead of circles to frame vehicles to calculate an accurate area
+- Turn light to green if area is bigger than a threshold  
 
