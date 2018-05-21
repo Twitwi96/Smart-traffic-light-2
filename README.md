@@ -3,7 +3,7 @@ FLAMENT Dorian (Dorian.Flament@student.umons.ac.be)
 
 NGUYEN Thuy hai (Thuy-Hai.Nguyen@student.umons.ac.be)
 
-University of Mons, Belgium (https://web.umons.ac.be/fr/), Faculty of Engineering
+Faculty of Engineering, University of Mons (https://web.umons.ac.be/fr/), Belgium
 
 Hardware/Software Platform course
 
