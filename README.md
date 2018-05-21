@@ -10,8 +10,9 @@ Two further improvements are also performed :
 
 # Click below to access to our Project Video : 
 Tutorial Version :
-
+<p align="center">
 [![video link youtube](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-21-a-16-12-18.jpg)]( https://www.youtube.com/watch?v=jQJlSoAfE3g&t=2s)
+  </p>
 
 Improved Version 1 :
 
