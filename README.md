@@ -1,4 +1,15 @@
-# Smart Traffic Lights 2 : Overview
+# Smart Traffic Lights 2
+FLAMENT Dorian (Dorian.Flament@student.umons.ac.be)
+NGUYEN Thuy hai (Thuy-Hai.Nguyen@student.umons.ac.be)
+
+University of Mons, Belgium (https://web.umons.ac.be/fr/)
+Hardware/Software Platform course
+Under the direction of Pr. Carlos VALDERRAMA (CarlosAlberto.VALDERRAMASAKUYAMA@umons.ac.be)
+
+2017-2018
+
+
+# General Overview
 The main goal of our project is to create traffic lights which allow to smartly manage the traffic on a road. 
 To do so, traffic lights let past cars on the most blocked road, by detecting the number of cars on each road with a webcam fixed above the intersection. Thanks to that, traffic jams and pollution caused by stopped cars are decreased.
 Two further improvements are also performed : 
