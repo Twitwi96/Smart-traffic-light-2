@@ -29,7 +29,12 @@ Two further improvements are also performed :
 1) The automatic detection of road limits in order to adapt the system to all sizes of road of cross crossroads.
 2) The possibility of giving the priority to emergency vehicles, like ambulances or fire engines, or globally to large vehicles (because it is long to fire up, involving traffics jams and pollution).
 
-This project is made with codes using Python language and with a Raspberry Pi 3. 
+Python language is used for this project and the hardware is the following :
+- Raspberry Pi 3
+- USB Webcam
+- Two traffic lights with LEDS (orange and green)
+- Cables
+- Structure and roads made by us
 
 # Click below to access to our Project Videos on Youtube : 
 Tutorial Version :
