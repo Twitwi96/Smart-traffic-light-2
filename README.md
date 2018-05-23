@@ -48,19 +48,20 @@ This project is programmed in Python and the hardware used is the following :
 Schematic of the links between components : 
 ![](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg)
 
-Global picture of the building performed : 
+Global picture of the assembly performed : 
 ![](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
 
 # Working of our project
 To summarize the working of different codes used, here is some block diagrams and pictures. 
 
-### First, for the Tutorial Version (detection of cars on the road) :
+### Tutorial Version (detection of cars on the road) : 
+"traffic.py" in folders below
 
 - Global view of the code :
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-49.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-31-29.jpg)
 
-- Then, some details for the part "Capture Frame Treatment", using the library opencv (CV2) :
+- Some details for the part "Capture Frame Treatment", using the library opencv (CV2) :
 
 Each treatment applied on the image captured by the webcam is showed and described as : 
 
@@ -75,15 +76,16 @@ Each treatment applied on the image captured by the webcam is showed and describ
 7) Dilate 5 times
 8) Threshold
 
-- After that, cars are framed with circles ("Find contours" part). These circles are counted as described below.
+- After that, cars are framed with circles ("Find contours" part). The number of circles (and so of cars) are counted as described below.
 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre2.png)
 
 - Focus on the "Counter and analysis" part (how to count the number of cars and how to react ?) : 
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-00-im.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-31-52.jpg)
 
-- Some slight modifications are made to adapt the code of the Tutorial version for our building :
+- Some modifications are made to adapt the code of the Tutorial version for our building :
+traffic_modif1.py in folders below
 
 1) Increase dilatation for detection to be adapted to all kind of cars
 2) View of all different masks (blur, dilate, erode) to see different steps of detection
@@ -96,9 +98,10 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 - Global Block Diagram of the improvements performed in this project : 
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47-im.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-32-31.jpg)
 
 #### Improvement 1 (automatic calibration)
+traffic_modif2.py in folders below
 
 - Picture showing calibration objects : 
 
@@ -113,6 +116,7 @@ Each treatment applied on the image captured by the webcam is showed and describ
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/i/imp/improv1.png)
 
 #### Improvement 2 (priority vehicles)
+traffic_modif3.py in folders below
 
 - The circles to frame the cars are replaced by rectangles, in order to calculate the area of the vehicle more accurately :
 
