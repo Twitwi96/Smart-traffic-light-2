@@ -45,10 +45,10 @@ This project is programmed in Python and the hardware used is the following :
 - Structure and roads made by us
 
 Schematic of the links between components : 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg =250x250)
+![](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg =250x250)
 
 Global picture of the building performed : 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
+![](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png =250x250)
 
 # Working of our project
 To summarize the working of different codes used, here is some block diagrams and pictures. 
