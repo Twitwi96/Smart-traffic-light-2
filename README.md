@@ -42,6 +42,7 @@ This project is programmed in Python and the hardware used is the following :
 - USB Webcam
 - Two traffic lights with LEDS (orange and green)
 - Cables
+- Resistors
 - Structure and roads made by us
 
 Schematic of the links between components : 
