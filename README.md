@@ -39,14 +39,14 @@ This project is programmed in Python and the hardware used is the following :
 - Resistors
 - Structure and roads made by us
 
-Schematic of the links between components : 
+Schematic of the conections between components : 
 ![](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg)
 
 Global picture of the assembly performed : 
 ![](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
 
-# Working of our project
-To summarize the working of different codes used, here is some block diagrams and pictures. 
+# Project operation
+To summarize the operation of the different codes used, here are some block diagrams and pictures. 
 
 ### Tutorial Version (detection of cars on the road) : 
 "traffic.py" in folders above
