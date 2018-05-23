@@ -44,12 +44,43 @@ This project is programmed in Python and the hardware used is the following :
 - Cables
 - Structure and roads made by us
 
-Schematic of the links between components and global picture of the building perfomed :  
+Schematic of the links between components : 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30.jpg)
 
+
+Global picture of the building performed : 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
 
+# Working of the codes
+To summarize the working of different codes used, here is some block diagrams and pictures. 
 
+## First, for the Tutorial Version (detection of cars on the road) :
+
+- Global view of the code :
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-49.jpg)
+
+- Then, some details for the part "Capture Frame Treatment", using the library opencv (CV2) : 
+Each treatment applied on the image captured by the webcam is showed and described as : 
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/3/330/33060423-1134416520032249-8026819840683540480-n.png)
+
+1.Transform frame into array
+2.Convert RGB to HSV
+3.Threshold the HSV to exclude black and white (road and strips) 
+4. Blur to ignore details
+5. Dilate 10 times (in order to transform the car in a "block")
+6. Erode
+7. Dilate 5 times
+8. Threshold
+
+- Finally, cars are framed with circles ("Find contours" part). These circles are counted as described below.
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre2.png)
+
+- Focus on the "Counter and analysis" part (how to count the number of cars and how to react ?) : 
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-00.jpg)
+
+## Then, for the Improved Version (automatic calibration of the road limits and priority to large vehicles) :
+
+- 
 
 
 # Click below to access to our Project Videos on Youtube : 
