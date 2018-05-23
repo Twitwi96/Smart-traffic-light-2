@@ -92,7 +92,7 @@ traffic_modif1.py in folders above
 5) Make code work for any USB webcam
 
 
-### Then, for the Improved Version (automatic calibration of the road limits and priority to large vehicles) :
+### Improved Version (automatic calibration of the road limits and priority to large vehicles) :
 
 - Global Block Diagram of the improvements performed in this project : 
 
