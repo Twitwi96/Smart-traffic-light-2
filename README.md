@@ -49,7 +49,7 @@ Global picture of the assembly performed :
 To summarize the working of different codes used, here is some block diagrams and pictures. 
 
 ### Tutorial Version (detection of cars on the road) : 
-"traffic.py" in folders below
+"traffic.py" in folders above
 
 - Global view of the code :
 
@@ -79,7 +79,7 @@ Each treatment applied on the image captured by the webcam is showed and describ
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-31-52.jpg)
 
 - Some modifications are made to adapt the code of the Tutorial version for our building :
-traffic_modif1.py in folders below
+traffic_modif1.py in folders above
 
 1) Increase dilatation for detection to be adapted to all kind of cars
 2) View of all different masks (blur, dilate, erode) to see different steps of detection
@@ -95,7 +95,7 @@ traffic_modif1.py in folders below
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-32-31.jpg)
 
 #### Improvement 1 (automatic calibration)
-traffic_modif2.py in folders below
+traffic_modif2.py in folders above
 
 - Picture showing calibration objects : 
 
@@ -110,7 +110,7 @@ traffic_modif2.py in folders below
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/i/imp/improv1.png)
 
 #### Improvement 2 (priority vehicles)
-traffic_modif3.py in folders below
+traffic_modif3.py in folders above
 
 - The circles to frame the cars are replaced by rectangles, in order to calculate the area of the vehicle more accurately :
 
