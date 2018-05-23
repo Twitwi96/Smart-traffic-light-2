@@ -70,6 +70,10 @@ Each treatment applied on the image captured by the webcam is showed and describ
 7) Dilate 5 times
 8) Threshold
 
+The conversion from RGB image to HSV is represented with this picture :
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/r/rgb/rgbhsv.png)
+
 - After that, cars are framed with circles ("Find contours" part). The number of circles (and so of cars) are counted as described below.
 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre2.png)
