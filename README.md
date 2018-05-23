@@ -139,3 +139,10 @@ Improved Version 2 :
 
 [![video link youtube](http://liverpoolfc-fr.wifeo.com/images/y/you/youtube-improved-version-2.jpg)]( https://www.youtube.com/watch?v=j2LM9ZPuFI4&feature=youtu.be)
 
+"Untreated" Links for vidéos :
+
+Tutorial Version : https://www.youtube.com/watch?v=jQJlSoAfE3g&t=2s
+
+Improved Version 1 : https://www.youtube.com/watch?v=-3C68o-8WWs&feature=youtu.be
+
+Improved Version 2 : https://www.youtube.com/watch?v=j2LM9ZPuFI4&feature=youtu.be
