@@ -39,7 +39,7 @@ This project is programmed in Python and the hardware used is the following :
 - Resistors
 - Structure and roads made by us
 
-Schematic of the conections between components : 
+Schematic of the connections between components : 
 ![](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg)
 
 Global picture of the assembly performed : 
