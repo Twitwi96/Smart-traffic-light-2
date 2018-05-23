@@ -102,7 +102,7 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 - Picture showing calibration objects : 
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cal/calibobj.png)
 
 - The coordinates of the 4 calibration objects are detected. The image provided by the webcam is divided into 4 parts: each calibration object is associated with a zone. Thanks to that, we know where are the four corners of the crossroads, and so we know where are the roads. 
 
