@@ -51,7 +51,7 @@ Schematic of the links between components :
 Global picture of the building performed : 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
 
-# Working of the codes
+# Working of our project
 To summarize the working of different codes used, here is some block diagrams and pictures. 
 
 ### First, for the Tutorial Version (detection of cars on the road) :
@@ -66,14 +66,14 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/3/330/33060423-1134416520032249-8026819840683540480-n.png)
 
-1)Transform frame into array
-2)Convert RGB to HSV
-3)Threshold the HSV to exclude black and white (road and strips) 
-4)Blur to ignore details
-5)Dilate 10 times (in order to transform the car in a "block")
-6)Erode
-7)Dilate 5 times
-8)Threshold
+1) Transform frame into array
+2) Convert RGB to HSV
+3) Threshold the HSV to exclude black and white (road and strips) 
+4) Blur to ignore details
+5) Dilate 10 times (in order to transform the car in a "block")
+6) Erode
+7) Dilate 5 times
+8) Threshold
 
 - After that, cars are framed with circles ("Find contours" part). These circles are counted as described below.
 
@@ -85,11 +85,11 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 - Some slight modifications are made to adapt the code of the Tutorial version for our building :
 
-1)Increase dilatation for detection to be adapted to all kind of cars
-2)View of all different masks (blur, dilate, erode) to see different steps of detection
-3)Put all masks in one window for more visibility
-4)Correct limits of the road to be adjusted to our structure
-5)Make code work for any USB webcam
+1) Increase dilatation for detection to be adapted to all kind of cars
+2) View of all different masks (blur, dilate, erode) to see different steps of detection
+3) Put all masks in one window for more visibility
+4) Correct limits of the road to be adjusted to our structure
+5) Make code work for any USB webcam
 
 
 ### Then, for the Improved Version (automatic calibration of the road limits and priority to large vehicles) :
