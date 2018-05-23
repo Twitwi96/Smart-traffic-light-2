@@ -45,8 +45,7 @@ This project is programmed in Python and the hardware used is the following :
 - Structure and roads made by us
 
 Schematic of the links between components : 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30.jpg)
-
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30-im.jpg=250x250)
 
 Global picture of the building performed : 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
@@ -81,7 +80,7 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 - Focus on the "Counter and analysis" part (how to count the number of cars and how to react ?) : 
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-00.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-00-im.jpg)
 
 - Some slight modifications are made to adapt the code of the Tutorial version for our building :
 
@@ -96,7 +95,7 @@ Each treatment applied on the image captured by the webcam is showed and describ
 
 - Global Block Diagram of the improvements performed in this project : 
 
-![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47.jpg)
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47-im.jpg)
 
 #### Improvement 1 (automatic calibration)
 
