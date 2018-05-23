@@ -78,7 +78,7 @@ The conversion from RGB image to HSV is represented with this picture :
 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre2.png)
 
-- Focus on the "Counter and analysis" part (how to count the number of cars and how to react ?) : 
+- Focus on the "Counter and analysis" part (how to count the number of cars and how to react) : 
 
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-19-31-52.jpg)
 
