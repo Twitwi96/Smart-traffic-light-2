@@ -54,33 +54,73 @@ Global picture of the building performed :
 # Working of the codes
 To summarize the working of different codes used, here is some block diagrams and pictures. 
 
-## First, for the Tutorial Version (detection of cars on the road) :
+### First, for the Tutorial Version (detection of cars on the road) :
 
 - Global view of the code :
+
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-49.jpg)
 
-- Then, some details for the part "Capture Frame Treatment", using the library opencv (CV2) : 
+- Then, some details for the part "Capture Frame Treatment", using the library opencv (CV2) :
+
 Each treatment applied on the image captured by the webcam is showed and described as : 
+
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/3/330/33060423-1134416520032249-8026819840683540480-n.png)
 
-1.Transform frame into array
-2.Convert RGB to HSV
-3.Threshold the HSV to exclude black and white (road and strips) 
-4. Blur to ignore details
-5. Dilate 10 times (in order to transform the car in a "block")
-6. Erode
-7. Dilate 5 times
-8. Threshold
+1)Transform frame into array
+2)Convert RGB to HSV
+3)Threshold the HSV to exclude black and white (road and strips) 
+4)Blur to ignore details
+5)Dilate 10 times (in order to transform the car in a "block")
+6)Erode
+7)Dilate 5 times
+8)Threshold
 
-- Finally, cars are framed with circles ("Find contours" part). These circles are counted as described below.
+- After that, cars are framed with circles ("Find contours" part). These circles are counted as described below.
+
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre2.png)
 
 - Focus on the "Counter and analysis" part (how to count the number of cars and how to react ?) : 
+
 ![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-00.jpg)
 
-## Then, for the Improved Version (automatic calibration of the road limits and priority to large vehicles) :
+- Some slight modifications are made to adapt the code of the Tutorial version for our building :
 
-- 
+1)Increase dilatation for detection to be adapted to all kind of cars
+2)View of all different masks (blur, dilate, erode) to see different steps of detection
+3)Put all masks in one window for more visibility
+4)Correct limits of the road to be adjusted to our structure
+5)Make code work for any USB webcam
+
+
+### Then, for the Improved Version (automatic calibration of the road limits and priority to large vehicles) :
+
+- Global Block Diagram of the improvements performed in this project : 
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47.jpg)
+
+#### Improvement 1 (automatic calibration)
+
+- Picture showing calibration objects : 
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-53-47.jpg)
+
+- The coordinates of the 4 calibration objects are detected. The image provided by the webcam is divided into 4 parts: each calibration object is associated with a zone. Thanks to that, we know where are the four corners of the crossroads, and so we know where are the roads. 
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/coo/coord.png)
+
+- The calibration of the road limits is correctly made : vehicles in crossroads and outside road limits are not taken into account
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/i/imp/improv1.png)
+
+#### Improvement 2 (priority vehicles)
+
+- The circles to frame the cars are replaced by rectangles, in order to calculate the area of the vehicle more accurately :
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-18-26-48.jpg)
+
+- When a large vehicle appears on a road (area > threshold) -> The other vehicles are not counted -> Green light for this road
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/i/imp/improv2.png)
 
 
 # Click below to access to our Project Videos on Youtube : 
