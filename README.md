@@ -36,6 +36,22 @@ This project is programmed in Python and the hardware used is the following :
 - Cables
 - Structure and roads made by us
 
+# Components of our project
+This project is programmed in Python and the hardware used is the following :
+- Raspberry Pi 3 (with OpenCV2 installed)
+- USB Webcam
+- Two traffic lights with LEDS (orange and green)
+- Cables
+- Structure and roads made by us
+
+Schematic of the links between components and global picture of the building perfomed :  
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/c/cap/capture-d-e-cran-2018-05-23-a-17-52-30.jpg)
+
+![alt tag](http://liverpoolfc-fr.wifeo.com/images/s/san/sans-titre.png)
+
+
+
+
 # Click below to access to our Project Videos on Youtube : 
 Tutorial Version :
 
