@@ -64,8 +64,8 @@ Each treatment applied on the image captured by the webcam is showed and describ
 1) Transform frame into array
 2) Convert RGB to HSV
 3) Threshold the HSV to exclude black and white (road and strips) 
-4) Blur to ignore details
-5) Dilate 10 times (in order to transform the car in a "block")
+4) Blur to ignore details (like windscreens or seats)
+5) Dilate 10 times (in order to transform the car into a "block")
 6) Erode
 7) Dilate 5 times
 8) Threshold
