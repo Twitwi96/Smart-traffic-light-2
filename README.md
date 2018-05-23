@@ -23,7 +23,7 @@ and also :
 
 # General Overview
 The main goal of our project is to create traffic lights which allow to smartly manage the traffic on a road. 
-To do so, traffic lights allow cars on the most blocked road, by detecting the number of cars on each road with a webcam fixed above the intersection. Thanks to that, traffic jams and pollution caused by stopped cars are decreased.
+To do so, traffic lights allow cars on the most blocked road to go through, by detecting the number of cars on each road with a webcam fixed above the intersection. Thanks to that, traffic jams and pollution caused by stopped cars are decreased.
 Two further improvements are also performed : 
 
 1) The automatic detection of road limits in order to adapt the system to all sizes of road of cross crossroads.
